@@ -15,6 +15,8 @@
 
  else if($s == "/")
  echo $x/$y;
+ else if($s == "%")
+  echo $x%y;
  else
  echo "invalid";
 
