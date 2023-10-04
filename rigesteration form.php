@@ -22,6 +22,7 @@
     cursor: pointer;
     font-weight: bold;
    text-align: center;
+   margin-left: 150px;
   }
   h1{
     color:whitesmoke;
@@ -44,6 +45,13 @@
       height: 30px; /* Set the height of the textbox */
       padding: 5px; /* Optional: Add padding for better appearance */
       font-size: 14px;
+  }
+  .tble{
+    background-color: goldenrod;
+   margin-left: 400px;
+   border: 3px dashed black;
+   text-align: center;
+   font-weight: bold;
   }
 </style >
 <center>
@@ -68,7 +76,7 @@
       <td><input type="text" name="cnic"style="height: 30px ; " placeholder="Enter CNIC"></td>
     </tr>
     <tr>
-      <td colspan="2"><input type="Submit" name="register" value="Submit" size="10"  width="50px" height="40"    style="background-color: blue;"></td>
+      <td colspan="2"><input type="Submit" name="register" value="Submit" size="10"  width="50px" height="40"    style="background-color: pink;"></td>
     </tr>
     
   </table>
@@ -76,7 +84,7 @@
 </center>
 
 
-<table class="tbl" border="1">
+<table class="tble" border="1">
 
 <?php
 
